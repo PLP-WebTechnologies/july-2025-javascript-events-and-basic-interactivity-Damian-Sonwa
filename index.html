@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My JS Event Handling Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My Event Handling and Form Validation Assignment</h1>
+
+  <!-- Dark Mode -->
+  <h2>Dark Mode</h2>
+  <button id="toggleMode">Toggle Dark Mode</button>
+
+  <!-- Counter -->
+  <h2>Counter</h2>
+  <button id="increase">Increase</button>
+  <button id="decrease">Decrease</button>
+  <p>Count: <span id="count">0</span></p>
+
+  <!-- FAQ -->
+  <h2>FAQ</h2>
+  <p class="question">What is JavaScript? (click me)</p>
+  <p class="answer">JavaScript is used to make web pages interactive.</p>
+
+  <!-- Dropdown -->
+  <h2>Dropdown Menu</h2>
+  <button id="dropdownBtn">Show Menu ▼</button>
+  <ul id="dropdownMenu">
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+
+  <!-- Tabs -->
+  <h2>Tabbed Interface</h2>
+  <div class="tabs">
+    <button class="tabBtn" data-tab="tab1">Tab 1</button>
+    <button class="tabBtn" data-tab="tab2">Tab 2</button>
+    <button class="tabBtn" data-tab="tab3">Tab 3</button>
+  </div>
+  <div class="tabContent" id="tab1">This is content for Tab 1</div>
+  <div class="tabContent" id="tab2">This is content for Tab 2</div>
+  <div class="tabContent" id="tab3">This is content for Tab 3</div>
+
+  <!-- Form -->
+  <h2>Sign Up</h2>
+  <form id="signupForm">
+    <input type="text" id="name" placeholder="Name"><br>
+    <input type="text" id="email" placeholder="Email"><br>
+    <input type="password" id="password" placeholder="Password"><br>
+    <button type="submit">Submit</button>
+  </form>
+  <p id="error"></p>
+  <p id="success"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

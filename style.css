@@ -1,0 +1,55 @@
+body {
+  font-family: Arial;
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.dark {
+  background: black;
+  color: rgb(13, 147, 236);
+}
+.white {
+    background:#F8F9FA
+}
+
+#error {
+  color: red;
+}
+
+#success {
+  color: green;
+}
+
+/* Dropdown */
+#dropdownMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  width: 120px;
+}
+
+#dropdownMenu li {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+#dropdownMenu li:last-child {
+  border-bottom: none;
+}
+
+/* Tabs */
+.tabs {
+  margin-top: 10px;
+}
+
+.tabContent {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 5px;
+}
+
